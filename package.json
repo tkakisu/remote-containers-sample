@@ -1,0 +1,21 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Takahiro Kakisu <takahiro_kakisu@evolveit.jp>",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node-dev server.js",
+    "debug": "ts-node-dev --inspect=0.0.0.0:9229 server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "ts-node-dev": "^1.0.0-pre.63"
+  }
+}
