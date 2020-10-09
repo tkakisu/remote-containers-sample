@@ -8,7 +8,6 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint"],
   rules: {
     quotes: ["error", "double"],
   },

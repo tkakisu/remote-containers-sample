@@ -7,7 +7,7 @@
   "main": "server.js",
   "scripts": {
     "start": "ts-node-dev server.js",
-    "debug": "ts-node-dev --inspect=0.0.0.0:9229 server.js"
+    "debug": "ts-node-dev --inspect=127.0.0.1:9229 server.js"
   },
   "dependencies": {
     "express": "^4.16.1",
