@@ -6,9 +6,8 @@ WORKDIR /usr/src/app
 RUN apk add --no-cache yarn git
 
 # アプリケーションの依存関係をインストールする
-# ワイルドカードを使用して、package.json と package-lock.json の両方が確実にコピーされるようにします。
 # package.jsonだけ先にコピーするのは、依存関係のインストールまでをキャッシュしてリビルドを高速化するため
-COPY package*.json ./
+COPY package.json yarn.lock ./
 
 RUN yarn install
 

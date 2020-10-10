@@ -10,6 +10,6 @@
   },
   "forwardPorts": [3000],
   "workspaceFolder": "/usr/src/app",
-  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "extensions": ["eamodio.gitlens", "donjayamanne.githistory", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
   "postCreateCommand": "yarn install"
 }
