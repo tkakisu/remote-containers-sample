@@ -8,7 +8,6 @@
     "editor.formatOnSave": true,
     "prettier.singleQuote": true
   },
-  "forwardPorts": [3000],
   "workspaceFolder": "/usr/src/app",
   "extensions": ["eamodio.gitlens", "donjayamanne.githistory", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
   "postCreateCommand": "yarn install"
