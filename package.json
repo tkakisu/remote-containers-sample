@@ -6,8 +6,8 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node-dev server.js",
-    "debug": "ts-node-dev --inspect=127.0.0.1:9229 server.js"
+    "start": "node server.js",
+    "debug": "nodemon -L --inspect=127.0.0.1:9229 server.js"
   },
   "dependencies": {
     "express": "^4.16.1",
@@ -16,6 +16,6 @@
   "devDependencies": {
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
-    "ts-node-dev": "^1.0.0-pre.63"
+    "nodemon": "^2.0.7"
   }
 }
